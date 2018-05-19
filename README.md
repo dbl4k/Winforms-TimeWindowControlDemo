@@ -3,4 +3,4 @@ A quick one hour mockup of how you could achieve a Monday - Sunday timeline cont
 
 Note: This was a rapidly prototype to illustrate an idea, many basic features are not currently implemented.
 
-![painting]("_assets/paint-items.gif")
+![painting](_assets/paint-items.gif)
