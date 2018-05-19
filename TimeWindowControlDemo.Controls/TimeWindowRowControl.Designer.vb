@@ -1,8 +1,8 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
-    Inherits System.Windows.Forms.Form
+Partial Class TimeWindowRowControl
+    Inherits System.Windows.Forms.UserControl
 
-    'Form overrides dispose to clean up the component list.
+    'UserControl overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
@@ -22,29 +22,17 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TimeWindowControl1 = New TimeWindowControlDemo.Controls.TimeWindowControl()
         Me.SuspendLayout()
         '
-        'TimeWindowControl1
-        '
-        Me.TimeWindowControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.TimeWindowControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TimeWindowControl1.Location = New System.Drawing.Point(0, 0)
-        Me.TimeWindowControl1.Name = "TimeWindowControl1"
-        Me.TimeWindowControl1.Size = New System.Drawing.Size(772, 333)
-        Me.TimeWindowControl1.TabIndex = 0
-        '
-        'Form1
+        'TimeWindowRowControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(772, 333)
-        Me.Controls.Add(Me.TimeWindowControl1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Name = "TimeWindowRowControl"
+        Me.Size = New System.Drawing.Size(990, 57)
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents TimeWindowControl1 As Controls.TimeWindowControl
 End Class
